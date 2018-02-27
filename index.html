@@ -151,7 +151,25 @@
           </div>
 
 
-          <div class="content-nav-tabs clearfix">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+            </li>
+          </ul>
+          
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">satu</div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">dua</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">tiga</div>
+          </div>
+
+          <div class="content-nav-tabs clearfix" id="myTab" role="tablist">
             <ul class="content-tabs days ">
               <li class="active"> <a href="#"> Today </a> </li>
               <li> <a href="#"> Wed 17 </a> </li>
@@ -163,69 +181,84 @@
             </ul>
           </div>
 
-
-          <div class="content-calendar-guest">
-            <div class="calendar-guest-header mt-4">
-              <div>Guest 1</div>
-              <div>Guest 2</div>
-              <div>Guest 3</div>
-              <div>Guest 4</div>
-            </div>
-            <div class="my-3 clearfix"></div>
-            <div class="calendar-guest-item">
-              <div class="time">8:00</div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-            </div>
-            <div class="calendar-guest-item">
-              <div class="time">8:10</div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-            </div>
-            <div class="calendar-guest-item">
-              <div class="time">8:20</div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-            </div>
-            <div class="calendar-guest-item">
-              <div class="time">8:30</div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-            </div>
-            <div class="calendar-guest-item">
-              <div class="time">8:40</div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-            </div>
-            <div class="calendar-guest-item">
-              <div class="time">8:50</div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-            </div>
-
-            <div class="my-3 clearfix"></div>
-
-            <div class="calendar-guest-item">
-              <div class="time">9:00</div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
-            </div>
-
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">... yuhuuuu</div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">... ppppppp</div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
           </div>
+
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="today" role="tabpanel" aria-labelledby="today">
+              <div class="content-calendar-guest">
+                <div class="calendar-guest-header mt-4">
+                  <div>Guest 1</div>
+                  <div>Guest 2</div>
+                  <div>Guest 3</div>
+                  <div>Guest 4</div>
+                </div>
+                <div class="my-3 clearfix"></div>
+                <div class="calendar-guest-item">
+                  <div class="time">8:00</div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                </div>
+                <div class="calendar-guest-item">
+                  <div class="time">8:10</div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                </div>
+                <div class="calendar-guest-item">
+                  <div class="time">8:20</div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                </div>
+                <div class="calendar-guest-item">
+                  <div class="time">8:30</div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                </div>
+                <div class="calendar-guest-item">
+                  <div class="time">8:40</div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                </div>
+                <div class="calendar-guest-item">
+                  <div class="time">8:50</div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                </div>
+
+                <div class="my-3 clearfix"></div>
+
+                <div class="calendar-guest-item">
+                  <div class="time">9:00</div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                  <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+          </div>
+
           <div class="clearfix"></div>
           <div class="content-bottom">
 
@@ -529,5 +562,7 @@
       </div>
     </div>
   </body>
-
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </html>
