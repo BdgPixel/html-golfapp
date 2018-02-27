@@ -151,44 +151,34 @@
           </div>
 
 
-          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
-            </li>
-          </ul>
-          
-          <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">satu</div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">dua</div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">tiga</div>
-          </div>
-
-          <div class="content-nav-tabs clearfix" id="myTab" role="tablist">
-            <ul class="content-tabs days ">
-              <li class="active"> <a href="#"> Today </a> </li>
-              <li> <a href="#"> Wed 17 </a> </li>
-              <li> <a href="#"> Thu 18 </a> </li>
-              <li> <a href="#">   Fri 19 </a> </li>
-              <li> <a href="#"> Sat 20   </a>   </li>
-              <li> <a href="#"> Sun 21 </a> </li>
-              <li><a href="#"> Mon 22 </a> </li>
+          <div class="content-nav-tabs clearfix">
+            <ul class="nav nav-pills mb-3 content-tabs days" id="pills-tab" role="tablist">
+              <li class="active">
+                <a class="active" id="pills-home-tab" data-toggle="pill" href="#today" role="tab" aria-controls="pills-home" aria-selected="true">Today</a>
+              </li>
+              <li class="">
+                <a class="" id="pills-profile-tab" data-toggle="pill" href="#17" role="tab" aria-controls="pills-profile" aria-selected="false">Wed 17</a>
+              </li>
+              <li class="">
+                <a class="" id="pills-contact-tab" data-toggle="pill" href="#18" role="tab" aria-controls="pills-contact" aria-selected="false">Thu 18</a>
+              </li>
+              <li class="">
+                <a class="" id="pills-contact-tab" data-toggle="pill" href="#19" role="tab" aria-controls="pills-contact" aria-selected="false">Fri 19</a>
+              </li>
+              <li class="">
+                <a class="" id="pills-contact-tab" data-toggle="pill" href="#20" role="tab" aria-controls="pills-contact" aria-selected="false">Sat 20</a>
+              </li>
+              <li class="">
+                <a class="" id="pills-contact-tab" data-toggle="pill" href="#21" role="tab" aria-controls="pills-contact" aria-selected="false">Sun 21</a>
+              </li>
+              <li class="">
+                <a class="" id="pills-contact-tab" data-toggle="pill" href="#22" role="tab" aria-controls="pills-contact" aria-selected="false">Mon 22</a>
+              </li>
             </ul>
           </div>
-
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">... yuhuuuu</div>
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">... ppppppp</div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-          </div>
-
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="today" role="tabpanel" aria-labelledby="today">
+          
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="today" role="tabpanel" aria-labelledby="pills-home-tab">
               <div class="content-calendar-guest">
                 <div class="calendar-guest-header mt-4">
                   <div>Guest 1</div>
@@ -251,13 +241,87 @@
                 </div>
               </div>
             </div>
+            <div class="tab-pane fade" id="17" role="tabpanel" aria-labelledby="pills-profile-tab">dua</div>
+            <div class="tab-pane fade" id="18" role="tabpanel" aria-labelledby="pills-contact-tab">tiga</div>
           </div>
 
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-          </div>
+          <!-- <div class="content-nav-tabs clearfix" id="myTab" role="tablist">
+            <ul class="content-tabs days ">
+              <li class="active"> <a href="#"> Today </a> </li>
+              <li> <a href="#"> Wed 17 </a> </li>
+              <li> <a href="#"> Thu 18 </a> </li>
+              <li> <a href="#">   Fri 19 </a> </li>
+              <li> <a href="#"> Sat 20   </a>   </li>
+              <li> <a href="#"> Sun 21 </a> </li>
+              <li><a href="#"> Mon 22 </a> </li>
+            </ul>
+          </div> -->
+
+          
+
+          
+          <!-- <div class="content-calendar-guest">
+            <div class="calendar-guest-header mt-4">
+              <div>Guest 1</div>
+              <div>Guest 2</div>
+              <div>Guest 3</div>
+              <div>Guest 4</div>
+            </div>
+            <div class="my-3 clearfix"></div>
+            <div class="calendar-guest-item">
+              <div class="time">8:00</div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+            </div>
+            <div class="calendar-guest-item">
+              <div class="time">8:10</div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+            </div>
+            <div class="calendar-guest-item">
+              <div class="time">8:20</div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+            </div>
+            <div class="calendar-guest-item">
+              <div class="time">8:30</div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+            </div>
+            <div class="calendar-guest-item">
+              <div class="time">8:40</div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+            </div>
+            <div class="calendar-guest-item">
+              <div class="time">8:50</div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+            </div>
+
+            <div class="my-3 clearfix"></div>
+
+            <div class="calendar-guest-item">
+              <div class="time">9:00</div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+              <div><button class="btn btn-sm btn-block"><i class="fas fa-user-plus"></i></div>
+            </div>
+          </div> -->
+
 
           <div class="clearfix"></div>
           <div class="content-bottom">
